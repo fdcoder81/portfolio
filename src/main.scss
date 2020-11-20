@@ -8,3 +8,16 @@ html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
 }
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.fixed-div {
+  padding-left: 25rem;
+}

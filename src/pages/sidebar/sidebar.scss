@@ -1,7 +1,12 @@
 .sidebar {
-  height: 100vh;
+  height: 100rem;
   width: 25rem;
   box-shadow: 1px 5px 5px 0px #555;
+  background-color: #fff;
+  position: fixed;
+
+  &-menu {
+  }
 
   &-title {
     height: 20rem;
@@ -12,14 +17,14 @@
     align-items: center;
 
     h1 {
-      font-size: 2.8rem;
+      font-size: 3rem;
       color: #00008b;
       font-weight: 300;
       margin-bottom: 0.5rem;
     }
 
     h2 {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       color: #555;
     }
   }
@@ -31,11 +36,14 @@
     transition: all 0.4s ease-out;
 
     &:hover {
-      /*  background-color: red; */
-      margin-left: 1rem;
       border-left: 0.4rem solid #00008b;
+      transform: translateX(1rem);
       transition: all 0.4s ease-out;
       cursor: pointer;
+
+      p {
+        font-weight: 700;
+      }
     }
 
     p {
