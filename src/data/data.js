@@ -10,7 +10,7 @@ export const experience = [
       "Working on a food delivery app.",
       "Developing and maintaining websites based on client needs and specifications.",
       "Improved knowledge of modern React.js, React Native, React Hooks",
-      "Tools : HTML5, CSS3, JavaScript, React.js, React Native, Redux",
+      "Tools : CSS3, SCSS, JavaScript, React.js, React Native, Redux",
     ],
   },
   {
@@ -23,7 +23,7 @@ export const experience = [
       "Developed WorkinSpaces, an office space to rent website using React.js .",
       "Focused on performance, usability and up-to-date practices.",
       "Worked close to the team leader and the web designer to create beautiful, functional and fast interfaces.",
-      "Tools : HTML5, CSS3, JavaScript, React.js, React Native, Redux",
+      "Tools : CSS3, SCSS, JavaScript, React.js, React Native, Redux",
     ],
   },
 ];
