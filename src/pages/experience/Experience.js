@@ -2,13 +2,16 @@ import React from "react";
 import ContentHeader from "../../component/content-header/ContentHeader";
 import ExperienceCard from "../../component/experience-card/ExperienceCard";
 import "./experience.scss";
+import { experience } from "../../data/data";
 
 function Experience() {
   return (
     <div className="experience">
       <ContentHeader title="Experience" />
       <div className="experience-container">
-        <ExperienceCard />
+        {experience.map((item) => (
+          <ExperienceCard item={item} />
+        ))}
       </div>
     </div>
   );

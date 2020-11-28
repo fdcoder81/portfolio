@@ -1,19 +1,27 @@
 import React from "react";
 import "./experienceCard.scss";
 
-import desk from "../../img/desk.png";
-
-function ExperienceCard() {
+function ExperienceCard({ item }) {
   return (
     <div className="experience-card">
-      <div className="card-header">
-        <div className="company">
-          <img src={desk} alt="" />
-          <p className="company-title">Freelancer</p>
+      <div className="experience-card-header">
+        <div className="experience-card-company">
+          <img src={item.img} alt="" />
+          <p className="experience-card-title">{item.title}</p>
         </div>
-        <p className="card-header-position">Front End developer</p>
+        <p className="experience-card-position">{item.position}</p>
       </div>
-      <p className="date">Jun 2020 - Present | London, UK</p>
+      <p className="experience-card-date">
+        {item.date} | {item.location}
+      </p>
+      <div className="experience-card-content">
+        <h3 className="experience-card-content-title">Accomplishments</h3>
+        <ul className="experience-card-content-list">
+          {item.list.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
