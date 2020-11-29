@@ -2,6 +2,7 @@ import React from "react";
 import About from "../about/About";
 import Experience from "../experience/Experience";
 import Projects from "../projects/Projects";
+import Skills from "../skills/Skills";
 
 function Content() {
   return (
@@ -9,6 +10,7 @@ function Content() {
       <About />
       <Experience />
       <Projects />
+      <Skills />
     </div>
   );
 }

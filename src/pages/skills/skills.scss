@@ -1,0 +1,18 @@
+.skills {
+  &-icons {
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &-icon {
+    margin: 0 4rem 4rem;
+    p {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+  }
+}

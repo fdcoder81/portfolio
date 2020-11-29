@@ -27,3 +27,26 @@ export const experience = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    title: "Burnt Butter",
+    img: "../../img/burnt1.png",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ad laudantium tempora cumque repudiandae omnis enim, consectetur dolor corporis dignissimos consequuntur similique, recusandae nam veniam illo ducimus impedit reiciendis in.",
+    tools: "React.js | JavaScript | Redux",
+    liveUrl: "",
+    sourceUrl: "",
+    videoUrl: "",
+  },
+  {
+    title: "E-Food Delivery",
+    img: "../../img/burnt1.png",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ad laudantium tempora cumque repudiandae omnis enim, consectetur dolor corporis dignissimos consequuntur similique, recusandae nam veniam illo ducimus impedit reiciendis in.",
+    tools: "React Native | JavaScript | Redux",
+    liveUrl: "",
+    sourceUrl: "",
+    videoUrl: "",
+  },
+];

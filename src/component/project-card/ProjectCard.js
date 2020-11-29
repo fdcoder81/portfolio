@@ -3,20 +3,14 @@ import "./projectCard.scss";
 import { MdLaptop } from "react-icons/md";
 import { FaGithub, FaVideo } from "react-icons/fa";
 
-function ProjectCard() {
-  const img = "../../img/burnt1.png";
+function ProjectCard({ item }) {
   return (
     <div className="project-card">
-      <img src={img} alt="" />
+      <img src={item.img} alt="" />
       <div className="project-card-content">
-        <h2 className="project-card-title">Burnt Butter</h2>
-        <p className="project-card-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          suscipit accusantium laborum nesciunt, cumque neque eaque animi
-          laboriosam qui, aspernatur quam, recusandae et saepe? Saepe provident
-          at voluptatibus commodi maiores!
-        </p>
-        <p className="project-card-tools">React.js | JavaScript | Redux</p>
+        <h2 className="project-card-title">{item.title}</h2>
+        <p className="project-card-description">{item.description}</p>
+        <p className="project-card-tools">{item.tools}</p>
         <div className="project-card-icons">
           <div className="project-card-icon">
             <MdLaptop size="35" color="#00008b" />
