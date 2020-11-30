@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../about/About";
+import Certifications from "../certifications/Certifications";
 import Education from "../education/Education";
 import Experience from "../experience/Experience";
 import Projects from "../projects/Projects";
@@ -13,6 +14,7 @@ function Content() {
       <Projects />
       <Skills />
       <Education />
+      <Certifications />
     </div>
   );
 }
