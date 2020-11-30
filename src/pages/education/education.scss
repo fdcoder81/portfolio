@@ -1,0 +1,73 @@
+.education {
+  img {
+    width: 70rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    border: 1px solid #666;
+    transition: all 0.8s ease-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .education-card {
+    width: 80rem;
+    padding-bottom: 1.5rem;
+    margin: 5rem auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem;
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2.5rem;
+      border-bottom: 0.1rem solid #a7abac;
+    }
+
+    &-company {
+      display: flex;
+      align-items: center;
+    }
+
+    &-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-left: 3.5rem;
+    }
+
+    &-position {
+      font-size: 2rem;
+      letter-spacing: 1.5px;
+      color: darkgreen;
+      font-weight: 700;
+    }
+
+    &-date {
+      margin: 1.8rem 0 0 1.5rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #666;
+    }
+
+    &-content {
+      margin: 2rem 0;
+
+      &-title {
+        margin-left: 1.5rem;
+        font-size: 1.8rem;
+      }
+
+      &-list {
+        margin: 2rem 0 0 5rem;
+        font-size: 1.6rem;
+
+        li {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
