@@ -1,10 +1,12 @@
 import React from "react";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 import {
   FaUser,
   FaDesktop,
   FaBuilding,
   FaCode,
   FaUniversity,
+  FaAward,
   FaEnvelope,
 } from "react-icons/fa";
 import "./sidebar.scss";
@@ -21,10 +23,16 @@ function Sidebar() {
           <FaUser size="20" color="#00008b" />
           <p>About</p>
         </div>
-        <div className="sidebar-item">
+        <NavLink
+          className="sidebar-item"
+          smooth
+          to="#experience"
+          activeClassName="active"
+        >
           <FaBuilding size="20" color="#00008b" />
           <p>Experience</p>
-        </div>
+        </NavLink>
+
         <div className="sidebar-item">
           <FaDesktop size="20" color="#00008b" />
           <p>Projects</p>
@@ -36,6 +44,10 @@ function Sidebar() {
         <div className="sidebar-item">
           <FaUniversity size="20" color="#00008b" />
           <p>Education</p>
+        </div>
+        <div className="sidebar-item">
+          <FaAward size="20" color="#00008b" />
+          <p>Certifications</p>
         </div>
         <div className="sidebar-item">
           <FaEnvelope size="20" color="#00008b" />

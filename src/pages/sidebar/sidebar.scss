@@ -1,5 +1,5 @@
 .sidebar {
-  height: 100rem;
+  height: 100%;
   width: 25rem;
   box-shadow: 1px 5px 5px 0px #555;
   background-color: #fff;
@@ -9,7 +9,7 @@
   }
 
   &-title {
-    height: 20rem;
+    height: 10rem;
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
@@ -29,11 +29,22 @@
     }
   }
 
+  .active {
+    text-decoration: none;
+    border-left: 0.4rem solid #00008b;
+    transform: translateX(1rem);
+    transition: all 0.4s ease-out;
+    p {
+      font-weight: 700;
+    }
+  }
+
   &-item {
     padding: 2.5rem;
     display: flex;
     align-items: center;
     transition: all 0.4s ease-out;
+    text-decoration: none;
 
     &:hover {
       border-left: 0.4rem solid #00008b;

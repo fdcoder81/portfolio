@@ -6,7 +6,7 @@ import { experience } from "../../data/data";
 
 function Experience() {
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
       <ContentHeader title="Experience" />
       <div className="experience-container">
         {experience.map((item) => (
