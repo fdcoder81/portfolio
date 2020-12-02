@@ -11,16 +11,54 @@ function Contact() {
       <ContentHeader title="Contact" />
       <div className="contact-container">
         <div className="contact-item">
-          <HiMail size="50" color="#666" />
-          <p>carloanselmi81@gmail.com</p>
+          <a
+            className="contact-atag"
+            href="mailto:carloanselmi81@gmail.com"
+            target="_blank"
+          >
+            <HiMail size="50" color="#666" />
+          </a>
+          <a
+            className="contact-atag"
+            href="mailto:carloanselmi81@gmail.com"
+            target="_blank"
+          >
+            <p>carloanselmi81@gmail.com</p>
+          </a>
         </div>
+
         <div className="contact-item">
-          <FaGithub size="50" color="red" />
-          <p>github.com/fdcoder81</p>
+          <a
+            className="contact-atag"
+            href="http://github.com/fdcoder81"
+            target="_blank"
+          >
+            <FaGithub size="50" color="red" />
+          </a>
+          <a
+            className="contact-atag"
+            href="http://github.com/fdcoder81"
+            target="_blank"
+          >
+            <p>github.com/fdcoder81</p>
+          </a>
         </div>
+
         <div className="contact-item">
-          <FaLinkedin size="50" color="#00008b" />
-          <p>www.linkedin.com/in/carlo-anselmi</p>
+          <a
+            className="contact-atag"
+            href="http://linkedin.com/in/carlo-anselmi"
+            target="_blank"
+          >
+            <FaLinkedin size="50" color="#00008b" />
+          </a>
+          <a
+            className="contact-atag"
+            href="http://linkedin.com/in/carlo-anselmi"
+            target="_blank"
+          >
+            <p>www.linkedin.com/in/carlo-anselmi</p>
+          </a>
         </div>
       </div>
     </div>
