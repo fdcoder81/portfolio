@@ -1,7 +1,7 @@
 import React from "react";
 import About from "../about/About";
 import Certifications from "../certifications/Certifications";
-import Contacts from "../contacts/Contacts";
+import Contact from "../contacts/Contact";
 import Education from "../education/Education";
 import Experience from "../experience/Experience";
 import Projects from "../projects/Projects";
@@ -16,7 +16,7 @@ function Content() {
       <Skills />
       <Education />
       <Certifications />
-      <Contacts />
+      <Contact />
     </div>
   );
 }

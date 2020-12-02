@@ -11,7 +11,7 @@ import pluralsight2 from "../../img/pluralsight2.png";
 
 function Certifications() {
   return (
-    <div className="certifications">
+    <div name="certifications" className="certifications">
       <ContentHeader title="Certifications" />
       <img src={coursera1} alt="" />
       <img src={coursera2} alt="" />

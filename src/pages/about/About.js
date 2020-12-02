@@ -5,8 +5,7 @@ import photo from "../../img/photo.jpg";
 
 function About() {
   return (
-    <div className="about">
-      <ContentHeader title="About" />
+    <div name="about" className="about">
       <div className="about-profile">
         <img src={photo} alt="" />
         <h3 className="about-title">

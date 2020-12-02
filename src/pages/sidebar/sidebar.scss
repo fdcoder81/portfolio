@@ -9,7 +9,7 @@
   }
 
   &-title {
-    height: 10rem;
+    height: 18rem;
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,6 @@
   }
 
   .active {
-    text-decoration: none;
     border-left: 0.4rem solid #00008b;
     transform: translateX(1rem);
     transition: all 0.4s ease-out;
@@ -44,7 +43,6 @@
     display: flex;
     align-items: center;
     transition: all 0.4s ease-out;
-    text-decoration: none;
 
     &:hover {
       border-left: 0.4rem solid #00008b;

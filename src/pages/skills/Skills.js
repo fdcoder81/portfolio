@@ -11,7 +11,7 @@ import {
 
 function Skills() {
   return (
-    <div>
+    <div name="skills">
       <ContentHeader title="Skills" />
       <div className="skills">
         <div className="skills-icons">

@@ -5,7 +5,7 @@ import { projects } from "../../data/data";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div name="projects" className="projects">
       <ContentHeader title="Projects" />
       <div className="projects-container">
         {projects.map((item) => (

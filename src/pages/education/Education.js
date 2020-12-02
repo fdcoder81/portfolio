@@ -5,7 +5,7 @@ import { SiPluralsight, SiUdemy, SiCoursera } from "react-icons/si";
 
 function Education() {
   return (
-    <div className="education">
+    <div name="education" className="education">
       <ContentHeader title="Education" />
       <div className="education-card">
         <div className="education-card-header">
