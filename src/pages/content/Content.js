@@ -7,9 +7,9 @@ import Experience from "../experience/Experience";
 import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
 
-function Content() {
+function Content({ handleClickOutside }) {
   return (
-    <div className="content-container">
+    <div onClick={handleClickOutside} className="content-container">
       <About />
       <Experience />
       <Projects />

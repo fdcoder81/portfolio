@@ -1,13 +1,15 @@
 .project-card {
-  width: 95rem;
+  width: 90rem;
   margin: 5rem auto;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 0.5rem;
   display: flex;
 
-  img {
+  &-image {
     width: 50%;
-    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   &-content {
@@ -24,17 +26,16 @@
   }
 
   &-description {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #666;
     margin-top: 2rem;
+    margin-left: 1rem;
+    margin: 2rem 1rem 0;
   }
 
   &-tools {
     font-size: 1.8rem;
     margin-top: 2.5rem;
-  }
-
-  &-icons {
   }
 
   &-icon {
@@ -51,6 +52,29 @@
   }
 
   &-link {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 1224px) {
+  .project-card {
+    width: 70rem;
+
+    &-title {
+      font-size: 1.8rem;
+      margin-top: 2.5rem;
+    }
+
+    &-description {
+      font-size: 1.4rem;
+    }
+
+    &-tools {
+      font-size: 1.5rem;
+    }
+
+    &-link {
+      font-size: 1rem;
+    }
   }
 }

@@ -10,11 +10,12 @@ import {
   FaAward,
   FaEnvelope,
 } from "react-icons/fa";
+
 import "./sidebar.scss";
 
-function Sidebar() {
+function Sidebar({ toggleSidebar }) {
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${toggleSidebar ? "show" : "not-show"}`}>
       <Link smooth to="about">
         <div className="sidebar-title">
           <h1>Carlo Anselmi</h1>

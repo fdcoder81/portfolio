@@ -16,43 +16,43 @@ function Skills() {
       <div className="skills">
         <div className="skills-icons">
           <div className="skills-icon">
-            <FaHtml5 size={150} color="red" />
+            <FaHtml5 size={130} color="red" />
             <p>HTML5</p>
           </div>
           <div className="skills-icon">
-            <FaCss3 size={150} color="#5E77F9" />
+            <FaCss3 size={130} color="#5E77F9" />
             <p>CSS3</p>
           </div>
           <div className="skills-icon">
-            <FaSass size={150} color="#B8860B" />
+            <FaSass size={130} color="#B8860B" />
             <p>SASS</p>
           </div>
           <div className="skills-icon">
-            <SiJavascript size={150} color="#FFA500" />
+            <SiJavascript size={130} color="#FFA500" />
             <p>JavaScript</p>
           </div>
           <div className="skills-icon">
-            <FaReact size={150} color="#7B68EE" />
+            <FaReact size={130} color="#7B68EE" />
             <p>React.js</p>
           </div>
           <div className="skills-icon">
-            <FaReact size={150} color="#0000CD" />
+            <FaReact size={130} color="#0000CD" />
             <p>React Native</p>
           </div>
           <div className="skills-icon">
-            <SiRedux size={150} color="#9370DB" />
+            <SiRedux size={130} color="#9370DB" />
             <p>Redux</p>
           </div>
           <div className="skills-icon">
-            <SiGit size={150} color="#FF4500" />
+            <SiGit size={130} color="#FF4500" />
             <p>Git</p>
           </div>
           <div className="skills-icon">
-            <FaGithub size={150} color="#FF0000" />
+            <FaGithub size={130} color="#FF0000" />
             <p>GitHub</p>
           </div>
           <div className="skills-icon">
-            <SiVisualstudiocode size={150} color="#FF0000" />
+            <SiVisualstudiocode size={130} color="#FF0000" />
             <p>Visual Studio Code</p>
           </div>
         </div>

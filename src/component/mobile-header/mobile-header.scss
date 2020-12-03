@@ -1,0 +1,37 @@
+.mobile-header {
+  background-color: #fafafa;
+  width: 100%;
+  height: 8rem;
+  display: none;
+  align-items: center;
+
+  &-icon {
+    margin-left: 4rem;
+  }
+
+  &-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 2.8rem;
+      color: #00008b;
+      font-weight: 300;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #555;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-header {
+    display: flex;
+  }
+}

@@ -11,3 +11,19 @@
     }
   }
 }
+
+@media only screen and (max-width: 1224px) {
+  .certifications {
+    img {
+      width: 50rem;
+      display: block;
+      margin: 5rem auto;
+      margin-bottom: 5rem;
+      border: 1px solid #666;
+      transition: all 0.8s ease-out;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

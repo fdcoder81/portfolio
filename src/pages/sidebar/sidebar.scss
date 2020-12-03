@@ -5,7 +5,9 @@
   background-color: #fff;
   position: fixed;
 
-  &-menu {
+  &-icon {
+    display: none;
+    margin-left: 4rem;
   }
 
   &-title {
@@ -59,6 +61,21 @@
       color: #555;
       font-size: 1.8rem;
       margin-left: 2.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidebar {
+    top: 0;
+    z-index: 10;
+
+    &-icon {
+      display: block;
+    }
+
+    &-title {
+      display: none;
     }
   }
 }

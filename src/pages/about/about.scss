@@ -1,7 +1,7 @@
 .about {
   padding: 15rem 0;
 
-  .about-profile {
+  &-profile {
     display: flex;
     align-items: center;
     margin: 0 auto 5rem;
@@ -28,5 +28,27 @@
     letter-spacing: 0.5px;
     text-align: center;
     line-height: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 1224px) {
+  .about {
+    padding: 5rem 0;
+
+    &-profile {
+      width: 70rem;
+
+      img {
+        width: 15rem;
+      }
+
+      h3 {
+        font-size: 2.5rem;
+      }
+    }
+    p {
+      width: 70rem;
+      font-size: 2rem;
+    }
   }
 }
