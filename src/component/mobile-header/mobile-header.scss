@@ -1,9 +1,11 @@
 .mobile-header {
   background-color: #fafafa;
-  width: 100%;
+  min-width: 100%;
   height: 8rem;
   display: none;
   align-items: center;
+  position: fixed;
+  z-index: 10;
 
   &-icon {
     margin-left: 4rem;

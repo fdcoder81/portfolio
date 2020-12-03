@@ -15,7 +15,7 @@ import "./sidebar.scss";
 
 function Sidebar({ toggleSidebar }) {
   return (
-    <div className={`sidebar ${toggleSidebar ? "show" : "not-show"}`}>
+    <div className={`sidebar ${toggleSidebar ? "show" : null}`}>
       <Link smooth to="about">
         <div className="sidebar-title">
           <h1>Carlo Anselmi</h1>

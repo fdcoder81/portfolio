@@ -1,4 +1,6 @@
 .skills {
+  width: 100%;
+
   &-icons {
     width: 80%;
     margin: 5rem auto;
@@ -7,8 +9,12 @@
     flex-wrap: wrap;
   }
 
-  &-icon {
+  &-box {
     margin: 0 4rem 6rem;
+
+    &-icon {
+      font-size: 15rem;
+    }
 
     p {
       text-align: center;
@@ -16,6 +22,21 @@
       font-weight: 700;
       color: #666;
       margin-top: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .skills {
+    &-icons {
+      width: 100%;
+      text-align: center;
+    }
+    &-box {
+      width: 10rem;
+      &-icon {
+        font-size: 5rem;
+      }
     }
   }
 }

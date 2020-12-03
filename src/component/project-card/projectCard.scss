@@ -78,3 +78,37 @@
     }
   }
 }
+
+@media only screen and (max-width: 720px) {
+  .project-card {
+    width: 35rem;
+    flex-direction: column;
+
+    &-image {
+      height: 20rem;
+      width: 100%;
+    }
+
+    &-content {
+      width: 100%;
+      padding: 0 2rem;
+    }
+
+    &-title {
+      font-size: 1.8rem;
+      margin-top: 2.5rem;
+    }
+
+    &-description {
+      font-size: 1.4rem;
+    }
+
+    &-tools {
+      font-size: 1.5rem;
+    }
+
+    &-link {
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,4 +1,6 @@
 .certifications {
+  width: 100%;
+
   img {
     width: 70rem;
     display: block;
@@ -24,6 +26,14 @@
       &:hover {
         transform: scale(1.2);
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .certifications {
+    img {
+      width: 30rem;
     }
   }
 }

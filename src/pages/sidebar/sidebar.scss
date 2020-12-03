@@ -69,6 +69,7 @@
   .sidebar {
     top: 0;
     z-index: 10;
+    display: none;
 
     &-icon {
       display: block;
@@ -78,4 +79,8 @@
       display: none;
     }
   }
+}
+
+.show {
+  display: block;
 }

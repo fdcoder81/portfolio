@@ -15,44 +15,44 @@ function Skills() {
       <ContentHeader title="Skills" />
       <div className="skills">
         <div className="skills-icons">
-          <div className="skills-icon">
-            <FaHtml5 size={130} color="red" />
+          <div className="skills-box">
+            <FaHtml5 className="skills-box-icon" color="red" />
             <p>HTML5</p>
           </div>
-          <div className="skills-icon">
-            <FaCss3 size={130} color="#5E77F9" />
+          <div className="skills-box">
+            <FaCss3 className="skills-box-icon" color="#5E77F9" />
             <p>CSS3</p>
           </div>
-          <div className="skills-icon">
-            <FaSass size={130} color="#B8860B" />
+          <div className="skills-box">
+            <FaSass className="skills-box-icon" color="#B8860B" />
             <p>SASS</p>
           </div>
-          <div className="skills-icon">
-            <SiJavascript size={130} color="#FFA500" />
+          <div className="skills-box">
+            <SiJavascript className="skills-box-icon" color="#FFA500" />
             <p>JavaScript</p>
           </div>
-          <div className="skills-icon">
-            <FaReact size={130} color="#7B68EE" />
+          <div className="skills-box">
+            <FaReact className="skills-box-icon" color="#7B68EE" />
             <p>React.js</p>
           </div>
-          <div className="skills-icon">
-            <FaReact size={130} color="#0000CD" />
+          <div className="skills-box">
+            <FaReact className="skills-box-icon" color="#0000CD" />
             <p>React Native</p>
           </div>
-          <div className="skills-icon">
-            <SiRedux size={130} color="#9370DB" />
+          <div className="skills-box">
+            <SiRedux className="skills-box-icon" color="#9370DB" />
             <p>Redux</p>
           </div>
-          <div className="skills-icon">
-            <SiGit size={130} color="#FF4500" />
+          <div className="skills-box">
+            <SiGit className="skills-box-icon" color="#FF4500" />
             <p>Git</p>
           </div>
-          <div className="skills-icon">
-            <FaGithub size={130} color="#FF0000" />
+          <div className="skills-box">
+            <FaGithub className="skills-box-icon" color="#FF0000" />
             <p>GitHub</p>
           </div>
-          <div className="skills-icon">
-            <SiVisualstudiocode size={130} color="#FF0000" />
+          <div className="skills-box">
+            <SiVisualstudiocode className="skills-box-icon" color="#FF0000" />
             <p>Visual Studio Code</p>
           </div>
         </div>

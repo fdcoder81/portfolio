@@ -1,4 +1,6 @@
 .education {
+  width: 100%;
+
   &-card {
     width: 80rem;
     padding-bottom: 1.5rem;
@@ -74,6 +76,33 @@
         letter-spacing: 1.5px;
         color: darkgreen;
         font-weight: 700;
+      }
+
+      &-content {
+        &-title {
+          font-size: 1.6rem;
+        }
+
+        &-list {
+          margin: 2rem 0 0 5rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .education {
+    &-card {
+      width: 35rem;
+
+      &-title {
+        font-size: 1.3rem;
+      }
+
+      &-position {
+        font-size: 1.4rem;
       }
 
       &-content {
