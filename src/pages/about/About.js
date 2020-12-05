@@ -1,5 +1,4 @@
 import React from "react";
-import ContentHeader from "../../component/content-header/ContentHeader";
 import "./about.scss";
 import photo from "../../img/photo.jpg";
 

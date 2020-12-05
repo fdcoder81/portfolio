@@ -53,7 +53,7 @@ function Sidebar({ toggleSidebar }) {
           to="projects"
           activeClassName="active"
         >
-          <FaDesktop size="20" color="#00008b" />
+          <FaDesktop size="20" color="#800080" />
           <p>Projects</p>
         </Link>
         <Link
@@ -64,7 +64,7 @@ function Sidebar({ toggleSidebar }) {
           to="skills"
           activeClassName="active"
         >
-          <FaCode size="20" color="#00008b" />
+          <FaCode size="20" color="#0000ff" />
           <p>Skills</p>
         </Link>
         <Link
@@ -75,7 +75,7 @@ function Sidebar({ toggleSidebar }) {
           to="education"
           activeClassName="active"
         >
-          <FaUniversity size="20" color="#00008b" />
+          <FaUniversity size="20" color="#800000" />
           <p>Education</p>
         </Link>
         <Link
@@ -86,7 +86,7 @@ function Sidebar({ toggleSidebar }) {
           to="certifications"
           activeClassName="active"
         >
-          <FaAward size="20" color="#00008b" />
+          <FaAward size="20" color="#ffa500" />
           <p>Certifications</p>
         </Link>
         <Link
@@ -97,7 +97,7 @@ function Sidebar({ toggleSidebar }) {
           to="contact"
           activeClassName="active"
         >
-          <FaEnvelope size="20" color="#00008b" />
+          <FaEnvelope size="20" color="#008000" />
           <p>Contact</p>
         </Link>
       </div>

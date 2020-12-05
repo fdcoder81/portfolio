@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 720px) {
   .project-card {
-    width: 35rem;
+    width: 80%;
     flex-direction: column;
 
     &-image {
@@ -109,6 +109,16 @@
 
     &-link {
       font-size: 1rem;
+    }
+
+    &-icons {
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    &-icon {
+      margin: 2rem 0.5rem;
     }
   }
 }
