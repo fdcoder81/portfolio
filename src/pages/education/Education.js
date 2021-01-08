@@ -61,7 +61,7 @@ function Education() {
           <p className="education-card-position">Front End Development</p>
         </div>
         <p className="education-card-date">
-          September 2017 - Present | Genova, Italy - London, UK
+          September 2017 - October 2018 | Genova, Italy - London, UK
         </p>
         <div className="education-card-content">
           <h3 className="education-card-content-title">Courses :</h3>
