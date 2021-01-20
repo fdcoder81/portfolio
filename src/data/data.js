@@ -53,6 +53,17 @@ export const projects = [
     videoUrl: "https://youtu.be/83j2M7-E0G0",
   },
   {
+    title: "Udemy Clone",
+    img: "../../img/udemy.png",
+    description:
+      "I built the Udemy main page (front end) from scratch without Bootstrapt or any other frameworks and I customized it a bit. Built with HTML, CSS (SCSS) and JavaScript, NO FRAMEWORKS / LIBRARIES",
+    extraInfo: false,
+    tools: "HTML5 | CSS3 | JavaScript | SCSS",
+    liveUrl: "//fdcoder81.github.io/udemy-clone/",
+    sourceUrl: "//github.com/fdcoder81/udemy-clone",
+    videoUrl: false,
+  },
+  {
     title: "Clothing shop",
     img: "../../img/clothing.jpg",
     description:
