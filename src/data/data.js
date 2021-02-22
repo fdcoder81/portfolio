@@ -1,5 +1,5 @@
 export const experience = [
-  {
+  /* {
     title: "Freelancer – Cerniglias Ltd",
     img: "../../img/desk.png",
     position: "Front End Developer",
@@ -12,7 +12,7 @@ export const experience = [
       "Improved knowledge of modern React.js, React Native, React Hooks",
       "Tools : CSS3, SCSS, JavaScript, React.js, React Native, Redux",
     ],
-  },
+  }, */
   {
     title: "GJQ Holdings Ltd",
     img: "../../img/wp.png",
@@ -27,6 +27,8 @@ export const experience = [
     ],
   },
 ];
+// This is a project that I made for a client, it's not online yet
+// This is a project I'm currently working on for a client
 
 export const projects = [
   {
@@ -34,8 +36,7 @@ export const projects = [
     img: "../../img/burnt1.png",
     description:
       "Food recipe web application. It is created so that users can create new account, sign in & out, make new recipes, save drafts, edit/delete their info and upload pictures.",
-    extraInfo:
-      "This is a project that I made for a client, it's not online yet",
+    extraInfo: "",
     tools: "React.js | JavaScript | Redux",
     liveUrl: false,
     sourceUrl: false,
@@ -46,7 +47,7 @@ export const projects = [
     img: "../../img/efood.jpg",
     description:
       "This app allows users to order food from their favorite local restaurants,ice cream shops and have it delivered to their favorite locations.",
-    extraInfo: "This is a project I'm currently working on for a client",
+    extraInfo: "",
     tools: "React Native | JavaScript | Redux",
     liveUrl: false,
     sourceUrl: false,
