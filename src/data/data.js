@@ -1,6 +1,6 @@
 export const experience = [
-  /* {
-    title: "Freelancer – Cerniglias Ltd",
+  {
+    title: "Cerniglias Ltd - Freelancer",
     img: "../../img/desk.png",
     position: "Front End Developer",
     date: "Jun 2020 - Present",
@@ -12,9 +12,9 @@ export const experience = [
       "Improved knowledge of modern React.js, React Native, React Hooks",
       "Tools : CSS3, SCSS, JavaScript, React.js, React Native, Redux",
     ],
-  }, */
+  },
   {
-    title: "GJQ Holdings Ltd",
+    title: "GJQ Holdings Ltd - Full-time",
     img: "../../img/wp.png",
     position: "Front End Developer",
     date: "Nov 2019 – Apr 2020",
@@ -36,7 +36,8 @@ export const projects = [
     img: "../../img/burnt1.png",
     description:
       "Food recipe web application. It is created so that users can create new account, sign in & out, make new recipes, save drafts, edit/delete their info and upload pictures.",
-    extraInfo: "",
+    extraInfo:
+      "This is a project that I built for a client, it's not online yet",
     tools: "React.js | JavaScript | Redux",
     liveUrl: false,
     sourceUrl: false,
@@ -47,7 +48,7 @@ export const projects = [
     img: "../../img/efood.jpg",
     description:
       "This app allows users to order food from their favorite local restaurants,ice cream shops and have it delivered to their favorite locations.",
-    extraInfo: "",
+    extraInfo: "This is a project I'm currently working on for a client",
     tools: "React Native | JavaScript | Redux",
     liveUrl: false,
     sourceUrl: false,
