@@ -38,7 +38,7 @@ export const experience = [
   },
   {
     title: "Pinsilike - Contract",
-    img: "../../img/wp.png",
+    img: "../../img/pins.png",
     position: "Front End Developer",
     date: "Mar 2019 – Sept 2019",
     location: "Genova, Italy",
