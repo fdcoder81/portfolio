@@ -58,8 +58,7 @@ export const projects = [
     img: "../../img/burnt1.png",
     description:
       "Food recipe web application. It is created so that users can create new account, sign in & out, make new recipes, save drafts, edit/delete their info and upload pictures.",
-    extraInfo:
-      "This is a project that I built for a client, it's not online yet",
+    extraInfo: "",
     tools: "React.js | JavaScript | Redux",
     liveUrl: false,
     sourceUrl: false,
@@ -70,7 +69,7 @@ export const projects = [
     img: "../../img/efood.jpg",
     description:
       "This app allows users to order food from their favorite local restaurants,ice cream shops and have it delivered to their favorite locations.",
-    extraInfo: "This is a project I'm currently working on for a client",
+    extraInfo: "",
     tools: "React Native | JavaScript | Redux",
     liveUrl: false,
     sourceUrl: false,
